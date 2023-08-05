@@ -155,8 +155,8 @@ header.sticky ul li a {
   min-width: 50%;
 }
 .img {
-  width: 90%;
-  height: 90%;
+  width: 100% !important;
+  height: auto !important;
 }
 
 /* Skills page */
@@ -186,7 +186,7 @@ header.sticky ul li a {
 }
 .skills .content .skillBx img {
   max-width: 80px;
-  max-height: 80px;
+  max-height: auto;
   filter: contrast(110%);
 }
 .skills .content .skillBx:hover {
